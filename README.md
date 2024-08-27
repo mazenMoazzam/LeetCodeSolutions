@@ -1,2 +1,2 @@
 # LeetCodeSolutions
-Repository of solved LeetCode problems along with analysis as well as reasoning.
+Repository of solved LeetCode problems along with analysis/reasoning. 
