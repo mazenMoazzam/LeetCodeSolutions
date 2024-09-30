@@ -16,7 +16,8 @@ class Solution(object):
                 else:
                     freqCount[x] = 1
             return freqCount
-        #decided to intialize a hashmap to count the frequencies for each element that will be inserted into the heap. O(n) time operation.
+        #decided to intialize a hashmap to count the frequencies for each element that will be inserted into the heap. O(n) time operation. O(n) space used, due to it scaling dependent
+        #on the number of elements in the array.
 
         def topK(array, k):
             counter = countElements(array)
