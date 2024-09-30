@@ -20,7 +20,7 @@ class Solution(object):
             visitedNodes.add(current)
             current = current.next  
 
-        return False
+        return False (previous solution of problem using set to store the visited nodes, if the current node is in the set, then it is a cycle and we would return true.
         '''
         if head is None or head.next is None:
             return False
