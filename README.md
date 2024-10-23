@@ -5,5 +5,4 @@ Each folder contains a solution along with my approach towards the problem as we
 
 Space complexity and time complexity included in the solution.
 
-Made in python.
-l
+Language used: Python
