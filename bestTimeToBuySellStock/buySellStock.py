@@ -20,4 +20,16 @@ class Solution(object):
 #Time Complexity: This functions runs in linear time (O(n)) where n represents the number of days (or the length of the prices array). 
 #Space Complexity: O(1) algorithm uses a fixed amount of extra space. 
 
+#strategy here is a sliding window where we need to declare a maxProfit and a minimum
+#price to we can maximize the amount of prodit we obtain. Once these are declared, we 
+#iterate through the list of prices for the stock, and we want to check if the current 
+#price for the stock is lower than what we currently have, if it is, we redefine the 
+#the minmum price to ensure we can maximize our profit. Using this value, we can 
+#take the minimum price and subtract it from the current price and see the profit we 
+#obtain from selling that stock, from there, we check and compare with the maximum profit
+#and redefine the value if it is greater than the current value, once the array iteration
+#is done, we return that value.
+
+
+
         
