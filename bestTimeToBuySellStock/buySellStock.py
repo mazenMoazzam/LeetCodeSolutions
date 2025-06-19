@@ -30,6 +30,9 @@ class Solution(object):
 #and redefine the value if it is greater than the current value, once the array iteration
 #is done, we return that value.
 
+#Why did I define the minimum price and maxProfit variable? This is because we need the minimum price tracker to determine the maximum profit we can make for 
+#the stock each day reset the maximum profit variable. Defined the maximumProfit variable for the case of tracking the greatest profit earned and this value
+#is compared with the current profit calculated each day. Max profit is returned at the end of the function.
 
 
         
