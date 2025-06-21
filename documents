@@ -2,7 +2,8 @@ Documentation/Notes
 
 - Sliding Window Technique:
   This technique is ued to reduce nested loop techniques to linear time operations. Keys to this technique is keeping a subset or window of the data, expand or shrink the 
-  window based on a condition, and slide the window across the input.
+  window based on a condition, and slide the window across the input. Optimization technique when you are looking for a subset of consective elements. Instead of 
+  recalculating everytime for example, which is inefficient, and is a nested approach, we use a "slide" as a window across the input and reuse previous computations.
 
 
 Space Complexity:
