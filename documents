@@ -5,3 +5,5 @@ Documentation/Notes
   window based on a condition, and slide the window across the input.
 
 
+Space Complexity:
+  How much extra memory an algorithm uses as the input size for the function grows. Helps us understand if an algorithm scales efficiently with growth. 
