@@ -17,4 +17,4 @@ class Solution:
         return maxSum
 
 
-#Sliding window approach.
+#Sliding window approach. With window sum being added regardless in loop and decrement when it reaches K length after comparing maxSum and window Sum and redefining.
