@@ -14,7 +14,7 @@ class Solution(object):
         current = head
 
         while current != None:
-            string += str(current.val)
+            string += str(current.val)l
             current = current.next
         
         return string == string[::-1] 
