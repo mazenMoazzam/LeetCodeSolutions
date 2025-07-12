@@ -9,8 +9,8 @@ class Solution:
         for right in range(len(arr)):
             windowSum += arr[right]
             
-            if right >= k - 1:
-                maxSum = max(maxSum, windowSum)
+            if right >= k - 1: #used to see if the curr array reaches the size K
+                maxSum = max(maxSum, windowSum) #comparing maxSum to currSum and redefining before we subtract and move on 
                 windowSum -= arr[left]
                 left += 1
             
