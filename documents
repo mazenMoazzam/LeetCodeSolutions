@@ -8,3 +8,8 @@ Documentation/Notes
 
 Space Complexity:
   How much extra memory an algorithm uses as the input size for the function grows. Helps us understand if an algorithm scales efficiently with growth. 
+
+Dynamic Programming:
+
+- Method used to solve complex problems by breaking them down to smaller subproblems, solving each sub-problem once and storing the results for future use (memmoization)
+  The key idea is to avoid repeating the work you are doing by remembering what you have solved.
